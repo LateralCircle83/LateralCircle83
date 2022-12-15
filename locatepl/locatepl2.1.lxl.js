@@ -2,7 +2,7 @@
 /// <reference path="d:\LateralCircle83\object/Library/JS/Api.js" /> 
 
 
-ll.registerPlugin("locatepl", "查找附近自然建筑", [2, 1, 0], { "开源许可证": "GPL-3.0" })
+ll.registerPlugin("locatepl", "查找附近自然建筑", [2, 1, 0], { "开源许可证": "GPL-2.0" })
 colorLog("green", "loading locatepl")
 var readconf = new JsonConfigFile(".\\plugins\\locatepl\\conf.json", '{"all_locate":true,"pos_to_move":true,"player_find_by":true,"player_on_":true}')
 var readpath = new JsonConfigFile(".\\plugins\\locatepl\\player.json", '{"Overworld":{"buriedtreasure":[],"mansion":[],"mineshaft":[],"monument":[],"ruins":[],"shipwreck":[],"stronghold":[],"temple":[],"village":[],"pillageroutpost":[],"ruinedportal":[],"ancientcity":[]},"End":{"endcity":[]},"Nether":{"fortress":[],"bastionremnant":[],"ruinedportal":[]}}')
