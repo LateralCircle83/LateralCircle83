@@ -1,0 +1,143 @@
+{"version":"2.3.0",
+    "Overworld": [
+        {
+            "en_name": "ancient_city",
+            "cn_name": "远古城市",
+            "dimid": 0,
+            "allow_find": true,
+            "use_money_useNewChunksOnly": 200,
+            "use_money_common": 100,
+            "picture":"https://patchwiki.biligame.com/images/mc/thumb/1/1c/nykad3km234hfsbvrxzd0hb1kaf1aro.png/250px-Ancient_City_SE.png"
+        },
+        {
+            "en_name": "buriedtreasure",
+            "cn_name": "埋藏的宝藏",
+            "dimid": 0,
+            "allow_find": true,
+            "use_money_useNewChunksOnly": 200,
+            "use_money_common": 100,
+            "picture":"https://patchwiki.biligame.com/images/mc/thumb/1/12/rwzp50bge6tqujjnpyj8hzi1odwfw56.png/120px-Chest_JE2_BE3.png"
+        },
+        {
+            "en_name": "mineshaft",
+            "cn_name": "废弃矿井",
+            "dimid": 0,
+            "allow_find": true,
+            "use_money_useNewChunksOnly": 200,
+            "use_money_common": 100,
+            "picture":"https://patchwiki.biligame.com/images/mc/thumb/5/52/18is4qi48vzc5r2v1qjmjjv5a1rdjnx.png/250px-Mineshaft.png"
+        },
+        {
+            "en_name": "monument",
+            "cn_name": "海底神殿",
+            "dimid": 0,
+            "allow_find": true,
+            "use_money_useNewChunksOnly": 200,
+            "use_money_common": 100,
+            "picture":"https://patchwiki.biligame.com/images/mc/thumb/0/0e/0rr43gvdk8qs06lugl50em46uynk8ep.png/200px-Ocean_monument.png"
+        },
+        {
+            "en_name": "pillageroutpost",
+            "cn_name": "掠夺者前哨站",
+            "dimid": 0,
+            "allow_find": true,
+            "use_money_useNewChunksOnly": 200,
+            "use_money_common": 100,
+            "picture":"https://patchwiki.biligame.com/images/mc/thumb/b/b8/a7df0kp0omw3h40xlm3lls4jau4ynim.png/250px-Pillager_outpost_watchtower.png"
+        },
+        {
+            "en_name": "ruinedportal",
+            "cn_name": "废弃传送门",
+            "dimid": 0,
+            "allow_find": true,
+            "use_money_useNewChunksOnly": 200,
+            "use_money_common": 100,
+            "picture":"https://patchwiki.biligame.com/images/mc/thumb/d/d2/nl21y29u6x1mglkigi9s3awgah5gs17.png/250px-Overworld_Ruined_Portal_1.png"
+        },
+        {
+            "en_name": "shipwreck",
+            "cn_name": "沉船",
+            "dimid": 0,
+            "allow_find": true,
+            "use_money_useNewChunksOnly": 200,
+            "use_money_common": 100,
+            "picture":"https://patchwiki.biligame.com/images/mc/thumb/2/2c/h8iblxogn86uwb1hbw6y8tdwlr0u211.png/250px-Shipwreck_Jungle_%28With_Mast%29.png"
+        },
+        {
+            "en_name": "stronghold",
+            "cn_name": "要塞",
+            "dimid": 0,
+            "allow_find": true,
+            "use_money_useNewChunksOnly": 200,
+            "use_money_common": 100,
+            "picture":"https://patchwiki.biligame.com/images/mc/thumb/a/ae/bppr04q5b98jvd2gzqovkn0w3lqdg3l.png/250px-StrongholdPortalRoom.png"
+        },
+        {
+            "en_name": "temple",
+            "cn_name": "沙漠神殿/雪屋/丛林神庙/女巫小屋",
+            "dimid": 0,
+            "allow_find": true,
+            "use_money_useNewChunksOnly": 200,
+            "use_money_common": 100,
+            "picture":"https://patchwiki.biligame.com/images/mc/thumb/3/35/42z5hagzmscujueeygxn8tpyn4pjby9.jpg/320px-Overworld.jpg"
+        },
+        {
+            "en_name": "ruins",
+            "cn_name": "海底废墟",
+            "dimid": 0,
+            "allow_find": true,
+            "use_money_useNewChunksOnly": 200,
+            "use_money_common": 100,
+            "picture":"https://patchwiki.biligame.com/images/mc/thumb/5/56/80xofzbs87sprih9vta8ri4krs9dtd6.png/275px-Underwater_ruin_cold.png"
+        },
+        {
+            "en_name": "village",
+            "cn_name": "村庄",
+            "dimid": 0,
+            "allow_find": true,
+            "use_money_useNewChunksOnly": 200,
+            "use_money_common": 100,
+            "picture":"https://patchwiki.biligame.com/images/mc/thumb/0/01/8ckn9gsfnjkfvibpka2x6gh3u3ug4te.png/250px-Plains_Small_House_3.png"
+        },
+        {
+            "en_name": "mansion",
+            "cn_name": "林地府邸",
+            "dimid": 0,
+            "allow_find": true,
+            "use_money_useNewChunksOnly": 200,
+            "use_money_common": 100,
+            "picture":"https://patchwiki.biligame.com/images/mc/thumb/d/d0/ml4jqf8w0crnq4zdw5fd1qg60e8wmbu.png/290px-Woodland_Mansion.png"
+        }
+    ],
+    "Nether": [
+        {
+            "en_name": "fortress",
+            "cn_name": "下界要塞",
+            "dimid": 1,
+            "allow_find": true,
+            "use_money_useNewChunksOnly": 200,
+            "use_money_common": 100,
+            "picture":"https://patchwiki.biligame.com/images/mc/thumb/b/b4/6pd3kih8dybqxu2h3ymblmesb4axa1u.png/250px-Nether_Fortress.png"
+        },
+        {
+            "en_name": "bastionremnant",
+            "cn_name": "堡垒遗迹",
+            "dimid": 1,
+            "allow_find": true,
+            "use_money_useNewChunksOnly": 200,
+            "use_money_common": 100,
+            "picture":"https://patchwiki.biligame.com/images/mc/thumb/0/0e/chz4j5ucr8vh1dmv5d6gzrlczdf6yjw.png/250px-Bastion_Remnant_2.png"
+        }
+    ],
+    "End": [
+        {
+            "en_name": "endcity",
+            "cn_name": "末地城",
+            "dimid": 2,
+            "allow_find": true,
+            "use_money_useNewChunksOnly": 200,
+            "use_money_common": 100,
+            "picture":"https://patchwiki.biligame.com/images/mc/thumb/d/d8/qvndhwffgjgnbvogn25ra6tli3rbxbl.png/250px-EndCityEntrance.png"
+        }
+    ]
+}
