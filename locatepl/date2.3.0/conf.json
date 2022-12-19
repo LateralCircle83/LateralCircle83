@@ -3,5 +3,6 @@
     "pos_to_move": 1,
     "player_find_by": 1,
     "player_on_": 1,
-    "money": "money"
+    "money": "money",
+    "version": "2.3.0"
 }
