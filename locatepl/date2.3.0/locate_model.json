@@ -1,7 +1,7 @@
 {"version":"2.3.0",
     "Overworld": [
         {
-            "en_name": "ancient_city",
+            "en_name": "ancientcity",
             "cn_name": "远古城市",
             "dimid": 0,
             "allow_find": true,
