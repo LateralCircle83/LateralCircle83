@@ -31,3 +31,8 @@ network.httpGet("https://gitee.com/lateralcircle83/eval/raw/master/locatepl/date
         succ =false
     }
 })
+if(succ==false){
+    logger.error("文件不完整或没有进行更新，请移步至minebbs手动获取新版本")
+}else{
+    mc.runcmdEx("ll load './/plugins//locatepl//locatepl_main.js'")
+    mc.runcmdEx("ll unload locatepl_first")}
