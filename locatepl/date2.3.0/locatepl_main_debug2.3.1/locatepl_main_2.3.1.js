@@ -1,7 +1,7 @@
 //LiteLoaderScript Dev Helper
 /// <reference path="d:\LateralCircle83\object/dts/llaids/src/index.d.ts"/>
 
-ll.registerPlugin("locatepl", "查找附近自然建筑", [2, 3, 0], { "开源许可证": "GPL-2.0" })
+ll.registerPlugin("locatepl", "查找附近自然建筑", [2, 3, 1], { "开源许可证": "GPL-2.0" })
 
 
 log("locatepl插件以加载，作者later")
@@ -139,7 +139,7 @@ function locatepl(pl) {
                 // 获取英文名
                 let enname = str_all.en_name
                 // 执行命令主体
-                let commond = mc.runcmdEx("execute at '" + pl.name + "' run locate structure " + enname+" "+bool[idd])
+                let commond = mc.runcmdEx(`execute at "${pl.name}" run locate structure ${enname} ${bool[idd]}`)
                 log(commond.output)
                 // 结果取正则表达式【123】
                 let common = commond.output.match(/(\-|\+)?\d+(\.\d+)?/g)
