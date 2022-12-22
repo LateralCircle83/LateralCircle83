@@ -2,7 +2,7 @@
 /// <reference path="d:\LateralCircle83\object/dts/llaids/src/index.d.ts"/>
 
 
-ll.registerPlugin("locatepl_first", "locatepl表层", [0, 0, 1], {})
+ll.registerPlugin("locatepl_first", "locatepl表层", [0, 0, 2], {})
 logger.log("locatepl插件正在试图加载")
 var is_turn_vs, the_vs
 var path = '.\\plugins\\locatepl\\'
@@ -14,13 +14,13 @@ if (the_life_on == null) {
     log("检测版本中……连接云端库")
     the_vs = JSON.parse(the_life_on).version
     network.httpGet("https://gitee.com/lateralcircle83/eval/raw/master/locatepl/version.txt", (st, str) => {
-        if (200 <= st <= 207) {
+        if (st==200) {
             logger.log("成功获取版本信息")
             if (the_vs != str) {
                 logger.log("检测到新版本" + str)
                 // log(str)
                 network.httpGet("https://gitee.com/lateralcircle83/eval/raw/master/locatepl/update.js", (st, str) => {
-                    if (200 <= st <= 207) {
+                    if (st==200) {
                         ll.eval(str)
                     } else {
                         logger.error("无法连接服务器，请移步至minebbs手动获取新版本")
