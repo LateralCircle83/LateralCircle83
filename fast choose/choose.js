@@ -5,7 +5,7 @@ ll.export((way,main)=>{
 var c
 var cmd=mc.newCommand("lltest","选择器转对象",PermType.Console)
 cmd.setEnum("p",["player"])
-cmd.setEnum("e",["enitiy"])
+cmd.setEnum("e",["entity"])
 cmd.setEnum("po",["pos"])
 cmd.mandatory("set",ParamType.Enum,"p")
 cmd.mandatory("set",ParamType.Enum,"e")
@@ -21,7 +21,7 @@ cmd.setCallback((_cmd,_o,_output,res)=>{
         case "player":
             c=res.pl
             break
-        case "enitiy":
+        case "entity":
             c=res.en
             break
         case "pos":
