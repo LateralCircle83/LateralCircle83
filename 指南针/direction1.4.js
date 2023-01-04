@@ -22,7 +22,7 @@
 ll.registerPlugin(
     /* name */ "direction",
     /* introduction */ "方向，实时播报旋转角",
-    /* version */[0, 1, 3,1],
+    /* version */[0, 1, 4],
     /* otherInformation */ { "作者": "LateralCircle83", "许可证": "GPL-2.0" }
 );
 
@@ -31,7 +31,7 @@ if (!ll.hasExported(`cup`, `checkUpdate`)) {
     logger.warn(`检查更新失败！辅助插件CheckUpdate未安装。>>前往免费下载：https://www.minebbs.com/resources/checkupdate.4792/`);
 }else{
     const checkUpdate=ll.import(`cup`, `checkUpdate`)
-    checkUpdate("direction",5136,[1,3,1])}
+    checkUpdate("direction",5136,[1,4])}
 var all_ids = {}
 const power = 3.333333333333333
 // 导出函数
