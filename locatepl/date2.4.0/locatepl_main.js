@@ -309,7 +309,7 @@ function locatepl(pl) {
                 if (arr[1]) {
                     if (dir_api) {
                         if (direction_api_add) {
-                            if (!(direction_api_list(pl)&&direction_api_list(pl)[str_all.cn_name + String(thex) + String(thez)])) { direction_api_add(pl, { "x": thex, "z": thez, "dimid": testword }, str_all.cn_name + String(thex) + String(thez), "§e"+str_all.cn_name.substring(0,1)+"§r"); pl.tell("[locatepl]已经为您开启罗盘服务，如果没有显示请尝试/dir start开启罗盘") } else { pl.tell("你在玩一种很新的东西，试图导航两次") }
+                            if (!(direction_api_list(pl)&&direction_api_list(pl)[str_all.cn_name + String(thex) + String(thez)])) { direction_api_add(pl, { "x": thex, "z": thez, "dimid": testword }, str_all.cn_name + String(thex) + String(thez), "§e"+str_all.cn_name.substring(0,1)+"§r"); pl.tell("[locatepl]已经为您开启罗盘服务，如果没有显示请尝试/dir start开启罗盘,如果想要结束请指令/dir remove_all") } else { pl.tell("你在玩一种很新的东西，试图导航两次") }
                         } else { pl.tell("[locatepl]快点告诉你腐竹没装罗盘插件（给我打钱（bushi）") }
                     } else { pl.tell("[locatepl]你们腐竹竟然没开启罗盘功能") }
                 }
