@@ -18,7 +18,7 @@
 ⠀⠀⠀⠀⠀⠀⠀⠈⠢⢄⠀⠀⠀⠀⠀⠀⠀⠀⠱⡄⠀⠀⠀⠀⠀⠐⠒⠒⢠⡽⠜⢁⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠆⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠑⠂⠤⢠⡄⣀⣀⣀⡈⢦⣄⡀⠀⣀⣠⠴⠊⠉⠋⠈⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢩⠀
 *作者：LateralCircle83
-*开源地址：https://gitee.com/lateralcircle83/eval/tree/master/%E6%8C%87%E5%8D%97%E9%92%88
+*开源地址：https://gitee.com/lateralcircle83/eval/tree/master/locatepl/locatepl_editor
 *本插件完全免费，如有侵权请立即举报
 */
 //LiteLoaderScript Dev Helper
